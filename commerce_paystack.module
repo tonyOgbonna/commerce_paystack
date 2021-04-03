@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for the Commerce Paystack module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function commerce_paystack_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.commerce_paystack':
+      return t("PayStack payment services for Drupal Commerce 2");
+
+    // OPTIONAL: Add additional cases for other paths that should display
+    // help text.
+  }
+}

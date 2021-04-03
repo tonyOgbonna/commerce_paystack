@@ -1,0 +1,7 @@
+'access paystack payments':
+  title: 'Access Ppaystack Payments'
+  description: 'Access paystack payments'
+'manage paystack config':
+  title: 'Manage Paystack Config'
+  description: 'Manage paystack configurations'
+  'restrict access': true

@@ -1,0 +1,21 @@
+commerce_paystack.commerce_payment_gateway.plugin.paystack_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    flow:
+      type: string
+      label: 'Payment flow'
+    live_secret_key:
+      type: string
+      label: 'Secret Key (Live)'
+    live_public_key:
+      type: string
+      label: 'Public Key (Live)'
+    test_secret_key:
+      type: string
+      label: 'Secret Key (Test)'
+    test_public_key:
+      type: string
+      label: 'Public Key (Test)'
+    currency_code:
+      type: string
+      label: 'Select currency'

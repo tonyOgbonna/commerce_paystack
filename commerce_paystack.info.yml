@@ -1,0 +1,8 @@
+name: 'Commerce Paystack'
+type: module
+description: 'PayStack payment services for Drupal Commerce 2'
+package: 'Commerce (contrib)'
+core: 8.x
+dependencies:
+  - commerce:commerce_payment
+core_version_requirement: '^8 || ^9'
